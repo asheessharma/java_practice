@@ -19,8 +19,8 @@ public class Book {
     public int getQiStock() {
         return qiStock;
     }
-    Book(String n,String a,double p,int q){
-        name=n;
+    Book(String name,String a,double p,int q){
+       this.name=name;
         author=a;
         price=p;
         qiStock=q;
