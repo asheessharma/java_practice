@@ -41,6 +41,17 @@ class triangle2{
 
     }
 }
+class inverse_tri{
+    public void inv_tri( int n){
+        System.out.println("Inverse  triangle is here ");
+        for(int i=0;i<n;i++){
+            for(int j=i;j<n;j++){
+                System.out.print("* ");
+            }
+            System.out.println( );
+        }
+    }
+}
 public class patterns {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
@@ -49,9 +60,11 @@ public class patterns {
       triangle_pattern pattern1=new triangle_pattern();
       pyramid_pattern pattern2=new pyramid_pattern();
       triangle2 pattern3=new triangle2();
+      inverse_tri pattern4= new inverse_tri();
       pattern1.pattern(n);
       pattern2.pyra_pattern(n);
       pattern3.tri2(n);
+      pattern4.inv_tri(n);
 
     }
 }
