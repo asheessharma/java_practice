@@ -4,7 +4,7 @@ public class passing_array {
         arr1[m]=val1;
         System.out.println("New array is :-");
        for (int i=0;i<arr1.length;i++){
-           System.out.println(arr1[i]+" ");
+           System.out.print(arr1[i]+" ");
        }
 
     }
@@ -24,7 +24,7 @@ public class passing_array {
         val=sc.nextInt();
         System.out.println("initially your array is:-");
         for(int i=0;i<arr.length;i++){
-            System.out.println(arr[i]+" ");
+            System.out.print(arr[i]+" ");
         }
         System.out.println( );
          passing_array pass=new passing_array();
