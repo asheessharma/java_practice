@@ -23,8 +23,10 @@ class new1 implements Runnable{
                 public static void main(String[] args) {
                         new new1();
                         Thread t= Thread.currentThread();
-                        System.out.println(" fuck thread "+t);
+                       // System.out.println(" fuck thread "+t);
                         try {
+                                t.getName();
+                                System.out.println(t);
                                 for( int i=0;i<5;i++){
                                         System.out.println(" main thread : "+i);
                                         Thread.sleep(500);
